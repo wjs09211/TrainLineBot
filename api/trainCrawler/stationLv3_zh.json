@@ -1,0 +1,2802 @@
+[
+    {
+       "code": "3360",
+       "name": "彰化",
+       "level": "一等",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          },
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3370",
+       "name": "花壇",
+       "level": "簡易",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3380",
+       "name": "大村",
+       "level": "簡易",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3390",
+       "name": "員林",
+       "level": "一等",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3400",
+       "name": "永靖",
+       "level": "招呼",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3410",
+       "name": "社頭",
+       "level": "三等",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3420",
+       "name": "田中",
+       "level": "二等",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3430",
+       "name": "二水",
+       "level": "二等",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          },
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3450",
+       "name": "林內",
+       "level": "三等",
+       "cityName": "雲林縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3460",
+       "name": "石榴",
+       "level": "招呼",
+       "cityName": "雲林縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3470",
+       "name": "斗六",
+       "level": "一等",
+       "cityName": "雲林縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3480",
+       "name": "斗南",
+       "level": "二等",
+       "cityName": "雲林縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3490",
+       "name": "石龜",
+       "level": "招呼",
+       "cityName": "雲林縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4050",
+       "name": "大林",
+       "level": "三等",
+       "cityName": "嘉義縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4060",
+       "name": "民雄",
+       "level": "三等",
+       "cityName": "嘉義縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4070",
+       "name": "嘉北",
+       "level": "簡易",
+       "cityName": "嘉義市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4080",
+       "name": "嘉義",
+       "level": "一等",
+       "cityName": "嘉義市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4090",
+       "name": "水上",
+       "level": "簡易",
+       "cityName": "嘉義縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4100",
+       "name": "南靖",
+       "level": "簡易",
+       "cityName": "嘉義縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4110",
+       "name": "後壁",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4120",
+       "name": "新營",
+       "level": "一等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4130",
+       "name": "柳營",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4140",
+       "name": "林鳳營",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4150",
+       "name": "隆田",
+       "level": "二等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4160",
+       "name": "拔林",
+       "level": "招呼",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4170",
+       "name": "善化",
+       "level": "二等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4180",
+       "name": "南科",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4190",
+       "name": "新市",
+       "level": "三等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4200",
+       "name": "永康",
+       "level": "二等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4210",
+       "name": "大橋",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4220",
+       "name": "臺南",
+       "level": "一等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4250",
+       "name": "保安",
+       "level": "三等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4260",
+       "name": "仁德",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4270",
+       "name": "中洲",
+       "level": "二等",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "沙崙線",
+             "branch": true
+          },
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4290",
+       "name": "大湖",
+       "level": "三等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4300",
+       "name": "路竹",
+       "level": "三等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4310",
+       "name": "岡山",
+       "level": "一等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4320",
+       "name": "橋頭",
+       "level": "三等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4330",
+       "name": "楠梓",
+       "level": "二等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4340",
+       "name": "新左營",
+       "level": "一等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4350",
+       "name": "左營",
+       "level": "簡易",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4380",
+       "name": "鼓山",
+       "level": "三等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4400",
+       "name": "高雄",
+       "level": "特等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          },
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4440",
+       "name": "鳳山",
+       "level": "二等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4450",
+       "name": "後庄",
+       "level": "簡易",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4460",
+       "name": "九曲堂",
+       "level": "三等",
+       "cityName": "高雄市",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "4470",
+       "name": "六塊厝",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1191",
+       "name": "千甲",
+       "level": "簡易",
+       "cityName": "新竹市",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1192",
+       "name": "新莊",
+       "level": "簡易",
+       "cityName": "新竹市",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1193",
+       "name": "竹中",
+       "level": "簡易",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "六家線",
+             "branch": true
+          },
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1201",
+       "name": "上員",
+       "level": "招呼",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1202",
+       "name": "榮華",
+       "level": "招呼",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1203",
+       "name": "竹東",
+       "level": "二等",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1204",
+       "name": "橫山",
+       "level": "招呼",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1205",
+       "name": "九讚頭",
+       "level": "簡易",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1206",
+       "name": "合興",
+       "level": "招呼",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1207",
+       "name": "富貴",
+       "level": "招呼",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1208",
+       "name": "內灣",
+       "level": "簡易",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "1194",
+       "name": "六家",
+       "level": "簡易",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "六家線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "2110",
+       "name": "談文",
+       "level": "招呼",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2120",
+       "name": "大山",
+       "level": "簡易",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2130",
+       "name": "後龍",
+       "level": "三等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2140",
+       "name": "龍港",
+       "level": "招呼",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2150",
+       "name": "白沙屯",
+       "level": "三等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2160",
+       "name": "新埔",
+       "level": "簡易",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2170",
+       "name": "通霄",
+       "level": "三等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2180",
+       "name": "苑裡",
+       "level": "三等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2190",
+       "name": "日南",
+       "level": "簡易",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2200",
+       "name": "大甲",
+       "level": "二等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2210",
+       "name": "臺中港",
+       "level": "二等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2220",
+       "name": "清水",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2230",
+       "name": "沙鹿",
+       "level": "二等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2240",
+       "name": "龍井",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2250",
+       "name": "大肚",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "2260",
+       "name": "追分",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "成追線",
+             "branch": false
+          },
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3431",
+       "name": "源泉",
+       "level": "招呼",
+       "cityName": "彰化縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "3432",
+       "name": "濁水",
+       "level": "簡易",
+       "cityName": "南投縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "3433",
+       "name": "龍泉",
+       "level": "招呼",
+       "cityName": "南投縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "3434",
+       "name": "集集",
+       "level": "招呼",
+       "cityName": "南投縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "3435",
+       "name": "水里",
+       "level": "簡易",
+       "cityName": "南投縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "3436",
+       "name": "車埕",
+       "level": "招呼",
+       "cityName": "南投縣",
+       "lineInfo": [
+          {
+             "name": "集集線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "4271",
+       "name": "長榮大學",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "沙崙線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "4272",
+       "name": "沙崙",
+       "level": "簡易",
+       "cityName": "臺南市",
+       "lineInfo": [
+          {
+             "name": "沙崙線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "5000",
+       "name": "屏東",
+       "level": "一等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5010",
+       "name": "歸來",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5020",
+       "name": "麟洛",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5030",
+       "name": "西勢",
+       "level": "三等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5040",
+       "name": "竹田",
+       "level": "簡易",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5050",
+       "name": "潮州",
+       "level": "一等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5060",
+       "name": "崁頂",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5070",
+       "name": "南州",
+       "level": "三等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5080",
+       "name": "鎮安",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5090",
+       "name": "林邊",
+       "level": "三等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5100",
+       "name": "佳冬",
+       "level": "簡易",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5110",
+       "name": "東海",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5120",
+       "name": "枋寮",
+       "level": "三等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "屏東線",
+             "branch": false
+          },
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5130",
+       "name": "加祿",
+       "level": "三等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5140",
+       "name": "內獅",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5160",
+       "name": "枋山",
+       "level": "招呼",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5170",
+       "name": "枋野",
+       "level": "三等",
+       "cityName": "屏東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5180",
+       "name": "古莊",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5190",
+       "name": "大武",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5200",
+       "name": "瀧溪",
+       "level": "簡易",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5210",
+       "name": "金崙",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5220",
+       "name": "太麻里",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5230",
+       "name": "知本",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "5240",
+       "name": "康樂",
+       "level": "簡易",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6000",
+       "name": "臺東",
+       "level": "一等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "南迴線",
+             "branch": false
+          },
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6010",
+       "name": "山里",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6020",
+       "name": "鹿野",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6030",
+       "name": "瑞源",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6040",
+       "name": "瑞和",
+       "level": "招呼",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6050",
+       "name": "關山",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6060",
+       "name": "海端",
+       "level": "招呼",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6070",
+       "name": "池上",
+       "level": "三等",
+       "cityName": "臺東縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6080",
+       "name": "富里",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6090",
+       "name": "東竹",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6100",
+       "name": "東里",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6110",
+       "name": "玉里",
+       "level": "一等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6120",
+       "name": "三民",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6130",
+       "name": "瑞穗",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6140",
+       "name": "富源",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6150",
+       "name": "大富",
+       "level": "招呼",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6160",
+       "name": "光復",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6170",
+       "name": "萬榮",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6180",
+       "name": "鳳林",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6190",
+       "name": "南平",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6210",
+       "name": "豐田",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6220",
+       "name": "壽豐",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6230",
+       "name": "平和",
+       "level": "招呼",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6240",
+       "name": "志學",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "6250",
+       "name": "吉安",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7000",
+       "name": "花蓮",
+       "level": "特等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          },
+          {
+             "name": "臺東線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7010",
+       "name": "北埔",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7020",
+       "name": "景美",
+       "level": "招呼",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7030",
+       "name": "新城",
+       "level": "二等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7040",
+       "name": "崇德",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7050",
+       "name": "和仁",
+       "level": "三等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7060",
+       "name": "和平",
+       "level": "二等",
+       "cityName": "花蓮縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7070",
+       "name": "漢本",
+       "level": "三等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7080",
+       "name": "武塔",
+       "level": "招呼",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7090",
+       "name": "南澳",
+       "level": "三等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7100",
+       "name": "東澳",
+       "level": "二等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7110",
+       "name": "永樂",
+       "level": "三等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7120",
+       "name": "蘇澳",
+       "level": "二等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7130",
+       "name": "蘇澳新",
+       "level": "一等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "北迴線",
+             "branch": false
+          },
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7140",
+       "name": "新馬",
+       "level": "招呼",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7150",
+       "name": "冬山",
+       "level": "二等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7160",
+       "name": "羅東",
+       "level": "二等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7170",
+       "name": "中里",
+       "level": "招呼",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7180",
+       "name": "二結",
+       "level": "三等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7190",
+       "name": "宜蘭",
+       "level": "一等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7200",
+       "name": "四城",
+       "level": "簡易",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7210",
+       "name": "礁溪",
+       "level": "三等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7220",
+       "name": "頂埔",
+       "level": "招呼",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7230",
+       "name": "頭城",
+       "level": "三等",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7240",
+       "name": "外澳",
+       "level": "招呼",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7250",
+       "name": "龜山",
+       "level": "簡易",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7260",
+       "name": "大溪",
+       "level": "簡易",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7270",
+       "name": "大里",
+       "level": "簡易",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7280",
+       "name": "石城",
+       "level": "招呼",
+       "cityName": "宜蘭縣",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7290",
+       "name": "福隆",
+       "level": "三等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7300",
+       "name": "貢寮",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7310",
+       "name": "雙溪",
+       "level": "二等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7320",
+       "name": "牡丹",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7330",
+       "name": "三貂嶺",
+       "level": "三等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          },
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7350",
+       "name": "猴硐",
+       "level": "三等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7360",
+       "name": "瑞芳",
+       "level": "一等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "深澳線",
+             "branch": true
+          },
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7380",
+       "name": "四腳亭",
+       "level": "三等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7390",
+       "name": "暖暖",
+       "level": "招呼",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0900",
+       "name": "基隆",
+       "level": "一等",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0910",
+       "name": "三坑",
+       "level": "簡易",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0920",
+       "name": "八堵",
+       "level": "二等",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          },
+          {
+             "name": "宜蘭線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0930",
+       "name": "七堵",
+       "level": "一等",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0940",
+       "name": "百福",
+       "level": "簡易",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0950",
+       "name": "五堵",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0960",
+       "name": "汐止",
+       "level": "二等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0970",
+       "name": "汐科",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0980",
+       "name": "南港",
+       "level": "一等",
+       "cityName": "臺北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "0990",
+       "name": "松山",
+       "level": "一等",
+       "cityName": "臺北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1000",
+       "name": "臺北",
+       "level": "特等",
+       "cityName": "臺北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1010",
+       "name": "萬華",
+       "level": "一等",
+       "cityName": "臺北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1020",
+       "name": "板橋",
+       "level": "一等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1030",
+       "name": "浮洲",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1040",
+       "name": "樹林",
+       "level": "一等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1050",
+       "name": "南樹林",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1060",
+       "name": "山佳",
+       "level": "三等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1070",
+       "name": "鶯歌",
+       "level": "二等",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1080",
+       "name": "桃園",
+       "level": "一等",
+       "cityName": "桃園市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1090",
+       "name": "內壢",
+       "level": "三等",
+       "cityName": "桃園市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1100",
+       "name": "中壢",
+       "level": "一等",
+       "cityName": "桃園市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1110",
+       "name": "埔心",
+       "level": "三等",
+       "cityName": "桃園市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1120",
+       "name": "楊梅",
+       "level": "三等",
+       "cityName": "桃園市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1130",
+       "name": "富岡",
+       "level": "三等",
+       "cityName": "桃園市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1150",
+       "name": "北湖",
+       "level": "簡易",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1160",
+       "name": "湖口",
+       "level": "三等",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1170",
+       "name": "新豐",
+       "level": "三等",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1180",
+       "name": "竹北",
+       "level": "三等",
+       "cityName": "新竹縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1190",
+       "name": "北新竹",
+       "level": "簡易",
+       "cityName": "新竹市",
+       "lineInfo": [
+          {
+             "name": "內灣線",
+             "branch": true
+          },
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1210",
+       "name": "新竹",
+       "level": "一等",
+       "cityName": "新竹市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1220",
+       "name": "三姓橋",
+       "level": "簡易",
+       "cityName": "新竹市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1230",
+       "name": "香山",
+       "level": "簡易",
+       "cityName": "新竹市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1240",
+       "name": "崎頂",
+       "level": "招呼",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "1250",
+       "name": "竹南",
+       "level": "一等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          },
+          {
+             "name": "西部幹線 (海線)",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3140",
+       "name": "造橋",
+       "level": "招呼",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3150",
+       "name": "豐富",
+       "level": "招呼",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3160",
+       "name": "苗栗",
+       "level": "一等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3170",
+       "name": "南勢",
+       "level": "招呼",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3180",
+       "name": "銅鑼",
+       "level": "三等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3190",
+       "name": "三義",
+       "level": "三等",
+       "cityName": "苗栗縣",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3210",
+       "name": "泰安",
+       "level": "簡易",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3220",
+       "name": "后里",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3230",
+       "name": "豐原",
+       "level": "一等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3250",
+       "name": "潭子",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3280",
+       "name": "太原",
+       "level": "簡易",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3300",
+       "name": "臺中",
+       "level": "特等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3320",
+       "name": "大慶",
+       "level": "簡易",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3330",
+       "name": "烏日",
+       "level": "簡易",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3340",
+       "name": "新烏日",
+       "level": "二等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "3350",
+       "name": "成功",
+       "level": "三等",
+       "cityName": "臺中市",
+       "lineInfo": [
+          {
+             "name": "成追線",
+             "branch": false
+          },
+          {
+             "name": "西部幹線",
+             "branch": false
+          }
+       ]
+    },
+    {
+       "code": "7331",
+       "name": "大華",
+       "level": "招呼",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7332",
+       "name": "十分",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7333",
+       "name": "望古",
+       "level": "招呼",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7334",
+       "name": "嶺腳",
+       "level": "招呼",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7335",
+       "name": "平溪",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7336",
+       "name": "菁桐",
+       "level": "簡易",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "平溪線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7361",
+       "name": "海科館",
+       "level": "招呼",
+       "cityName": "基隆市",
+       "lineInfo": [
+          {
+             "name": "深澳線",
+             "branch": true
+          }
+       ]
+    },
+    {
+       "code": "7362",
+       "name": "八斗子",
+       "level": "招呼",
+       "cityName": "新北市",
+       "lineInfo": [
+          {
+             "name": "深澳線",
+             "branch": true
+          }
+       ]
+    }
+ ]

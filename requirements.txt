@@ -1,0 +1,7 @@
+django
+requests
+line-bot-sdk
+redis
+celery
+uwsgi
+python-dotenv

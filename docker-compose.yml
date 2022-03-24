@@ -1,0 +1,68 @@
+version: '3.7'
+services:
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - 6379:6379
+    restart: always
+  nginx:
+    container_name: nginx-container
+    build: ./nginx
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - mysite_data:/app/tmp
+    depends_on:
+      - TrainLineBot
+
+  TrainLineBot-migration:
+    build: .
+    image: train-line-bot
+    container_name: train-line-bot-migration
+    restart: on-failure
+    depends_on:
+      - redis
+    env_file:
+      - .env
+    command:
+      - /bin/sh
+      - -c
+      - |
+        python manage.py makemigrations api
+        python manage.py migrate api
+        python manage.py loaddata api/trainCrawler/initial_station_data.json
+    volumes:
+      - mysite_data:/app/tmp
+
+  TrainLineBot:
+    build: .
+    image: train-line-bot
+    container_name: train-line-bot
+    restart: always
+    depends_on:
+      - redis
+      - TrainLineBot-migration
+    env_file:
+      - .env
+    command:
+      uwsgi --ini uwsgi.ini
+    volumes:
+      - mysite_data:/app/tmp
+
+  TrainLineBot-celery:
+    build: .
+    image: train-line-bot
+    container_name: train-line-bot-celery
+    restart: always
+    depends_on:
+      - redis
+      - TrainLineBot-migration
+    env_file:
+      - .env
+    command: celery -A TrainLineBot worker -l info --pool=threads
+    volumes:
+      - mysite_data:/app/tmp
+volumes:
+    mysite_data:
