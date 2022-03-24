@@ -5,3 +5,7 @@ redis
 celery
 uwsgi
 python-dotenv
+dj-database-url
+gunicorn
+dj-static
+psycopg2
