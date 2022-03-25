@@ -153,8 +153,9 @@ class TrainCrawler:
             raise NoMoneyException
 
         # get 2captcha result, retry 8 times
-        for i in range(8):
-            time.sleep(5)
+        time.sleep(10)
+        for i in range(30):
+            time.sleep(1)
             r = requests.get('http://2captcha.com/res.php?key='
                              + settings.CAPTCHA_KEY + '&action=get&id=' + captcha_process_id)
             logging.info("response for 2captcha.com/res.php " + r.text)

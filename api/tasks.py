@@ -20,6 +20,7 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
         time.sleep(5)
         start_time = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
         end_time = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
+        # 最長執行24小時
         while datetime.now() < end_time and datetime.now() - current_time < timedelta(hours=24):
             try:
                 task = Task.objects.filter(line_id=user_id).first()
@@ -34,9 +35,9 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
                         ticket = train_crawler.booking_ticket(ticket, code)
                         if ticket is not None and ticket.ticket_number is not None:
                             line_bot_api.push_message(user_id, TextSendMessage(text="成功訂到票了:\n" + str(ticket)))
+                            break
                         else:
-                            line_bot_api.push_message(user_id, TextSendMessage(text="訂票失敗"))
-                    break
+                            line_bot_api.push_message(user_id, TextSendMessage(text="訂票失敗，持續為您訂票"))
             except NoMoneyException as e:
                 line_bot_api.push_message(user_id, TextSendMessage(text="驗證碼辨識功能沒錢了 995"))
                 break
