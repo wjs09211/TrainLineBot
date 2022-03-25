@@ -196,8 +196,11 @@ class TrainCrawler:
         header['recaptchaToken'] = captcha_code
         r = self.session.post(url, json=[post_data], headers=header)
         ticket_info = json.loads(r.text)
+        logging.info(ticket_info)
         if ticket_info["message"] == "OK":
             ticket.ticket_number = ticket_info["data"][0]["tktRecNo"]
+            if ticket.ticket_number is None:
+                return None
             return ticket
         else:
             return None

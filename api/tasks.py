@@ -32,8 +32,10 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
                     code = train_crawler.captcha_hack()
                     if code is not None:
                         ticket = train_crawler.booking_ticket(ticket, code)
-                        if ticket is not None:
+                        if ticket is not None and ticket.ticket_number is not None:
                             line_bot_api.push_message(user_id, TextSendMessage(text="成功訂到票了:\n" + str(ticket)))
+                        else:
+                            line_bot_api.push_message(user_id, TextSendMessage(text="訂票失敗"))
                     break
             except NoMoneyException as e:
                 line_bot_api.push_message(user_id, TextSendMessage(text="驗證碼辨識功能沒錢了 995"))
