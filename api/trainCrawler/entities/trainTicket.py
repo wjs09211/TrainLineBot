@@ -31,23 +31,25 @@ TRAIN_CODE_MAP = {
 
 
 class TrainTicket:
-    def __init__(self, number, start_time, arrive_time, price, trn_class_code, train_line):
-        self.number = number
+    def __init__(self, trn_number, start_time, arrive_time, price, half_price, trn_class_code, train_line,
+                 start_station_code, end_station_code, id_card):
+        self.trn_number = trn_number
         self.start_time = start_time
         self.arrive_time = arrive_time
         self.price = price
+        self.half_price = half_price
         self.trn_class_code = trn_class_code
         self.train_line = train_line
+        self.start_station_code = start_station_code
+        self.end_station_code = end_station_code
+        self.id_card = id_card
 
-    def show_info(self):
-        logging.info('#' * 50)
-        logging.info('車碼: %s' % self.number)
-        logging.info(self.start_time)
-        logging.info(self.arrive_time)
-        logging.info(self.price)
-        logging.info(self.trn_class_code)  # 4莒光 3自強
-        logging.info(self.train_line)  # 1山線 2海線
-        logging.info('#' * 50)
+        self.ticket_number = None
 
     def __str__(self):
-        return "車號: %s\n乘車時間: %s\n到達時間: %s\n價格: %d\n車種: %s %s" % (self.number, self.start_time, self.arrive_time, self.price, TrainClassName[self.trn_class_code], TrainLineName[self.train_line])
+        if self.ticket_number is not None:
+            return "車號: %s\n乘車時間: %s\n到達時間: %s\n價格: %d\n車種: %s %s\n 身分證: %s\n 訂票代碼: %s"\
+                   % (self.trn_number, self.start_time, self.arrive_time, self.price, TrainClassName[self.trn_class_code], TrainLineName[self.train_line], self.id_card, self.ticket_number)
+        else:
+            return "車號: %s\n乘車時間: %s\n到達時間: %s\n價格: %d\n車種: %s %s" \
+                   % (self.trn_number, self.start_time, self.arrive_time, self.price, TrainClassName[self.trn_class_code], TrainLineName[self.train_line])

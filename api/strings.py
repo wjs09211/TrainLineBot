@@ -14,3 +14,9 @@ class Strings:
     UNKNOWN_COMMAND = "unknown command"
 
     ADD_BOOKING_TASK_SUCCESS = "新增訂票任務成功"
+    ERROR_ADD_FORMAT = "新增資訊錯誤"
+    ERROR_ADD_FORMAT_START_STATION = "沒有此起始站"
+    ERROR_ADD_FORMAT_END_STATION = "沒有此到達站"
+    ERROR_ADD_FORMAT_Time = "時間輸入錯誤"
+
+    ERROR_QUERY_SEAT = "搜尋車位資訊失敗，請確認格式是正確，或是機器人鼠了"

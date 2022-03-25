@@ -9,3 +9,4 @@ dj-database-url
 gunicorn
 dj-static
 psycopg2
+gevent

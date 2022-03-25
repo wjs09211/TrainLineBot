@@ -10,5 +10,22 @@ class ParserBookingInfoException(Exception):
     pass
 
 
+class ParserBookingInfoStartStationException(Exception):
+    pass
+
+
+class ParserBookingInfoEndStationException(Exception):
+    pass
+
+
+class ParserBookingInfoTimeException(Exception):
+    pass
+
+
 class QueryExistSeatException(Exception):
     pass
+
+
+class NoMoneyException(Exception):
+    pass
+

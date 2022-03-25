@@ -7,7 +7,6 @@ initial_django_data = []
 for i, item in enumerate(data):
     row_data = {
         'model': "api.station",
-        "pk": i + 1,
         "fields": {
             "name": item['name'],
             "code": item['code'],

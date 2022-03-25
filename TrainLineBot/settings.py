@@ -28,9 +28,10 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.getenv('DEBUG', False)))
 IS_HEROKU = bool(int(os.getenv('IS_HEROKU', False)))
-LINE_ACCESS_TOKEN = os.getenv('LINE_ACCESS_TOKEN')
 
+LINE_ACCESS_TOKEN = os.getenv('LINE_ACCESS_TOKEN')
 LINE_SECRET = os.getenv('LINE_SECRET')
+CAPTCHA_KEY = os.getenv('CAPTCHA_KEY')
 
 REDIS_URL = os.getenv('REDIS_URL')
 
@@ -90,13 +91,13 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
-CELERY_BROKER_URL = REDIS_URL
-CELERY_RESULT_BACKEND = REDIS_URL
-CELERY_ACCEPT_CONTENT = ['application/json']
-CELERY_TASK_SERIALIZER = 'json'
-CELERY_RESULT_SERIALIZER = 'json'
-CELERY_TIMEZONE = 'Asia/Taipei'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+# CELERY_BROKER_URL = REDIS_URL
+# CELERY_RESULT_BACKEND = REDIS_URL
+# CELERY_ACCEPT_CONTENT = ['application/json']
+# CELERY_TASK_SERIALIZER = 'json'
+# CELERY_RESULT_SERIALIZER = 'json'
+# CELERY_TIMEZONE = 'Asia/Taipei'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators

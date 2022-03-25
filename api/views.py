@@ -31,12 +31,9 @@ def webhook(request: HttpRequest):
 
 @handler.add(event=MessageEvent, message=TextMessage)
 def handle_message(event: MessageEvent):
-    print(event)
     try:
         command_handler = CommandHandler(event.source.user_id)
         replay_text = command_handler.run(event.message.text)
-        if replay_text == Strings.UNKNOWN_COMMAND:
-            raise Exception(Strings.UNKNOWN_COMMAND)
         line_bot_api.reply_message(
             reply_token=event.reply_token,
             messages=TextSendMessage(text=replay_text),
