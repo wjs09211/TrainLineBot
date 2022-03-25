@@ -25,6 +25,7 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
                 task = Task.objects.filter(line_id=user_id).first()
                 if task is None or task.status == Status.DELETING:
                     break
+                logging.info(user_id + " query_exist_seat!")
                 ticket = train_crawler.query_exist_seat(id_card, TRAIN_CODE_MAP[train_code], start_code, end_code, start_time_str, end_time_str)
                 if ticket is not None:
                     line_bot_api.push_message(user_id, TextSendMessage(text="搜尋到剩餘車位，嘗試為您自動訂票:\n" + str(ticket)))
