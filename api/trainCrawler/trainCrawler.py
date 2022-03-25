@@ -1,4 +1,3 @@
-import os
 import requests
 import json
 from datetime import datetime
@@ -7,7 +6,7 @@ import threading
 import time
 import logging
 from api.trainCrawler.entities.trainTicket import TrainTicket
-from api.exceptions import QueryExistSeatException, NoMoneyException
+from api.utils.exceptions import QueryExistSeatException, NoMoneyException
 from TrainLineBot import settings
 
 
@@ -126,7 +125,7 @@ class TrainCrawler:
                     ticket = TrainTicket(data['trainNo'], data['startTime'], data['arriveTime'],
                                          data['adultTktPrice'], data['halfTktPrice'],
                                          data['trnClassCode'], data['trainLine'], startStaCode, endStaCode, customerId)
-                    logging.info(str(ticket))
+                    # logging.info(str(ticket))
                     return ticket
             return None
         else:
@@ -146,7 +145,7 @@ class TrainCrawler:
                                                                 "googlekey=6Lc-7S0UAAAAADOtGzfjgtWpzqx5YPBiG-0uZC0O&" \
                                                                 "pageurl=" + page_url
         r = requests.get(url)
-        logging.info("response for 2captcha.com/in.php" + r.text)
+        logging.info("response for 2captcha.com/in.php " + r.text)
         try:
             status, captcha_process_id = r.text.split('|')
         except:
@@ -158,15 +157,17 @@ class TrainCrawler:
             time.sleep(5)
             r = requests.get('http://2captcha.com/res.php?key='
                              + settings.CAPTCHA_KEY + '&action=get&id=' + captcha_process_id)
-            logging.info("response for 2captcha.com/res.php" + r.text)
+            logging.info("response for 2captcha.com/res.php " + r.text)
             try:
+                result = r.text
+                if result == "CAPCHA_NOT_READY":
+                    continue
                 status, captcha_code = r.text.split('|')
                 if status == 'OK':
                     r = self.session.get(HOST + "/recaptcha/success?" + captcha_code)
                     return captcha_code
             except:
                 logging.error("Get 2captcha result error, maybe no Money. status code:" + r.text)
-                raise NoMoneyException
         return None
 
     def booking_ticket(self, ticket: TrainTicket, captcha_code):

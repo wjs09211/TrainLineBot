@@ -48,7 +48,7 @@ class TrainTicket:
 
     def __str__(self):
         if self.ticket_number is not None:
-            return "車號: %s\n乘車時間: %s\n到達時間: %s\n價格: %d\n車種: %s %s\n 身分證: %s\n 訂票代碼: %s"\
+            return "車號: %s\n乘車時間: %s\n到達時間: %s\n價格: %d\n車種: %s %s\n身分證: %s\n訂票代碼: %s"\
                    % (self.trn_number, self.start_time, self.arrive_time, self.price, TrainClassName[self.trn_class_code], TrainLineName[self.train_line], self.id_card, self.ticket_number)
         else:
             return "車號: %s\n乘車時間: %s\n到達時間: %s\n價格: %d\n車種: %s %s" \

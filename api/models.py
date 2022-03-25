@@ -11,7 +11,7 @@ class Station(models.Model):
 
 
 class Task(models.Model):
-    line_id = models.UUIDField()
+    line_id = models.CharField(max_length=64)
     status = models.CharField(max_length=32)
 
     class Meta:

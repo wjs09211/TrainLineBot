@@ -6,8 +6,9 @@ from datetime import datetime, timedelta
 import traceback
 from TrainLineBot.lineBotApi import line_bot_api
 from linebot.models import TextSendMessage
-import threading
-import threading
+from api.models import Task
+from api.utils.status import Status
+
 # @shared_task
 def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, start_time, end_time):
     train_crawler = TrainCrawler()
@@ -21,6 +22,9 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
         end_time = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
         while datetime.now() < end_time and datetime.now() - current_time < timedelta(hours=24):
             try:
+                task = Task.objects.filter(line_id=user_id).first()
+                if task is None or task.status == Status.DELETING:
+                    break
                 ticket = train_crawler.query_exist_seat(id_card, TRAIN_CODE_MAP[train_code], start_code, end_code, start_time_str, end_time_str)
                 if ticket is not None:
                     line_bot_api.push_message(user_id, TextSendMessage(text="搜尋到剩餘車位，嘗試為您自動訂票:\n" + str(ticket)))
@@ -44,7 +48,7 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
         logging.error("booking_ticket_task QueryExistSeatException")
 
     finally:
-        pass
+        Task.objects.filter(line_id=user_id).delete()
 
 
 def add(i):

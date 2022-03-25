@@ -6,9 +6,8 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 from TrainLineBot.lineBotApi import line_bot_api, handler
 from api.trainCrawler.trainCrawler import *
-from api.commandHandler import CommandHandler
-from TrainLineBot import settings
-from api.strings import Strings
+from api.utils.commandHandler import CommandHandler
+from api.utils.strings import Strings
 import traceback
 
 logger = logging.getLogger("django")
