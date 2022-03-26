@@ -17,8 +17,8 @@ delete
 因為有驗證碼所以使用2captcha的服務  
 一人同時最多訂一張票
 
-## 安裝&執行
-###環境變數
+##  安裝&執行
+### 環境變數
 新增`.env`檔案或加入環境變數
   
 |       環境變數       | 說明 |
@@ -30,7 +30,7 @@ delete
 | IS_HEROKU            | 1 or 1                        |
 | CAPTCHA_KEY          | 2captcha token                |
 
-###安裝  
+### 安裝  
 安裝套件  
 ``` 
 pip install -r requirements.txt 
@@ -42,7 +42,7 @@ python manage.py migrate api
 python manage.py loaddata api/trainCrawler/initial_station_data.json
 ```
 
-###執行  
+### 執行  
 ```
 python manage.py runserver
 ```
