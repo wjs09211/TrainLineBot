@@ -51,18 +51,18 @@ services:
     volumes:
       - mysite_data:/app/tmp
 
-  TrainLineBot-celery:
-    build: .
-    image: train-line-bot
-    container_name: train-line-bot-celery
-    restart: always
-    depends_on:
-      - redis
-      - TrainLineBot-migration
-    env_file:
-      - .env
-    command: celery -A TrainLineBot worker -l info --pool=threads
-    volumes:
-      - mysite_data:/app/tmp
+#  TrainLineBot-celery:
+#    build: .
+#    image: train-line-bot
+#    container_name: train-line-bot-celery
+#    restart: always
+#    depends_on:
+#      - redis
+#      - TrainLineBot-migration
+#    env_file:
+#      - .env
+#    command: celery -A TrainLineBot worker -l info --pool=threads
+#    volumes:
+#      - mysite_data:/app/tmp
 volumes:
     mysite_data:

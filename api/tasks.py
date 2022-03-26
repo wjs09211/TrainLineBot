@@ -38,6 +38,8 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
                             break
                         else:
                             line_bot_api.push_message(user_id, TextSendMessage(text="訂票失敗，持續為您訂票"))
+                    else:
+                        line_bot_api.push_message(user_id, TextSendMessage(text="訂票失敗(驗證碼)，持續為您訂票"))
             except NoMoneyException as e:
                 line_bot_api.push_message(user_id, TextSendMessage(text="驗證碼辨識功能沒錢了 995"))
                 break
