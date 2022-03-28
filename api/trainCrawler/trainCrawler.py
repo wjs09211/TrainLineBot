@@ -117,7 +117,7 @@ class TrainCrawler:
 
         remain_seat = json.loads(r.text)
         if remain_seat['message'] == 'OK':
-            # logging.info("query seat success")
+            logging.info("remain_seat %s" % str(remain_seat))
             for data in remain_seat['data']:
                 end_time = datetime.strptime(endDateTime, "%Y-%m-%d %H:%M:%S")
                 start_time = datetime.strptime(data['startTime'], "%Y-%m-%d %H:%M:%S")
