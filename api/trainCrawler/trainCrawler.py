@@ -117,11 +117,12 @@ class TrainCrawler:
 
         remain_seat = json.loads(r.text)
         if remain_seat['message'] == 'OK':
-            logging.info("remain_seat %s" % str(remain_seat))
+            logging.info("query ticket success")
             for data in remain_seat['data']:
                 end_time = datetime.strptime(endDateTime, "%Y-%m-%d %H:%M:%S")
                 start_time = datetime.strptime(data['startTime'], "%Y-%m-%d %H:%M:%S")
                 if start_time <= end_time:
+                    logging.info("get ticket")
                     ticket = TrainTicket(data['trainNo'], data['startTime'], data['arriveTime'],
                                          data['adultTktPrice'], data['halfTktPrice'],
                                          data['trnClassCode'], data['trainLine'], startStaCode, endStaCode, customerId)
