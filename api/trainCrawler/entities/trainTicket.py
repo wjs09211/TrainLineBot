@@ -17,15 +17,16 @@ class TrainClass:
     TZU_CHIANG = 3
     CHU_KUANG = 4
     FU_HSING = 5
+    TZU_CHIANG_FAST = 11
 
 
 TrainClassName = {TrainClass.PUYUMA: "普悠瑪", TrainClass.TAROKO: "太魯閣", TrainClass.TZU_CHIANG: "自強",
-                  TrainClass.CHU_KUANG: "莒光", TrainClass.FU_HSING: "復興"}
+                  TrainClass.CHU_KUANG: "莒光", TrainClass.FU_HSING: "復興", TrainClass.TZU_CHIANG_FAST: "自強快"}
 
 TRAIN_CODE_MAP = {
     '1': [TrainClass.PUYUMA, TrainClass.TAROKO, TrainClass.TZU_CHIANG,
-          TrainClass.CHU_KUANG, TrainClass.FU_HSING],
-    '2': [TrainClass.PUYUMA, TrainClass.TAROKO, TrainClass.TZU_CHIANG],
+          TrainClass.CHU_KUANG, TrainClass.FU_HSING, TrainClass.TZU_CHIANG_FAST],
+    '2': [TrainClass.PUYUMA, TrainClass.TAROKO, TrainClass.TZU_CHIANG, TrainClass.TZU_CHIANG_FAST],
     '3': [TrainClass.CHU_KUANG, TrainClass.FU_HSING]
 }
 
