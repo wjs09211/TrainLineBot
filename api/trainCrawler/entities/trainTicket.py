@@ -7,7 +7,7 @@ class TrainLine:
     SEA = 2
 
 
-TrainLineName = {TrainLine.MOUNT: "山線", TrainLine.SEA: "山線"}
+TrainLineName = {TrainLine.MOUNT: "山線", TrainLine.SEA: "海線"}
 
 
 class TrainClass:
