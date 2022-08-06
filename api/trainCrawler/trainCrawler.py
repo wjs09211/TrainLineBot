@@ -113,8 +113,9 @@ class TrainCrawler:
                      'startDateTime': startDateTime}
         url = HOST + '/tra-tip-web/ptr/pts131/qryseat/time'
         self._setting_secret_key()
+        logging.info('query_exist_seat post')
         r = self.session.post(url, json=[post_data], headers=self.header)
-        logging.info('query_exist_seat')
+        logging.info('query_exist_seat post finished')
 
         remain_seat = json.loads(r.text)
         if remain_seat['message'] == 'OK':
