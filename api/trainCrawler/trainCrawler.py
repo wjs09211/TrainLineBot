@@ -19,6 +19,9 @@ class TrainCrawler:
     def __init__(self):
         self.user_agent = 'Mozilla/5.0 (Linux; Android 5.1.1; R7sf Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.73 Mobile Safari/537.36/Worklight/8.0.0.00.2015-12-11T23:31:24Z'
         self.session = requests.Session()
+        self.session.proxies = {
+            'http': '165.154.227.34:80',
+        }
         self.header = {'User-Agent': self.user_agent,
                        "Content-Type": "application/json;charset=UTF-8",
                        'lang': 'zh-TW',
