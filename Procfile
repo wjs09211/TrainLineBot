@@ -1,1 +1,1 @@
-web: gunicorn TrainLineBot.wsgi --log-file -
+web: gunicorn TrainLineBot.wsgi --log-file --timeout 120

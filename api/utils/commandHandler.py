@@ -49,9 +49,11 @@ class CommandHandler:
             return Strings.ERROR_ADD_FORMAT_Time
         # test once
         try:
+            logging.info("crawler first")
             train_crawler = TrainCrawler()
             ticket = train_crawler.query_exist_seat(id_card, TRAIN_CODE_MAP[train_code],
                                                     start_code, end_code, start_time, end_time)
+            logging.info("crawler first finished")
         except QueryExistSeatException as e:
             return Strings.ERROR_QUERY_SEAT
         except Exception as e:
