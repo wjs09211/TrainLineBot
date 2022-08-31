@@ -41,7 +41,7 @@ class TrainCrawler:
             "totalTktCnt": 1,
             "hasStand": 'false',
             "stand": 'false',
-            "customerId": "A121360824",
+            "customerId": "A148451324",
             "custIdType": "PERSON_ID",
             "tktNorOrderCnt": 1,
             "parentChildCnt": 0,
@@ -100,7 +100,7 @@ class TrainCrawler:
         code = sha.hexdigest()
         self.header['code'] = code
 
-    def query_exist_seat(self, customerId='A121360824', trnClassCodes=None, startStaCode='1000',
+    def query_exist_seat(self, customerId='A148451324', trnClassCodes=None, startStaCode='1000',
                          endStaCode='3360', startDateTime='2022-03-26 12:00:00', endDateTime='2022-03-26 18:00:00'):
         if trnClassCodes == None:
             trnClassCodes = [11, 1, 2, 3, 4, 5]  # 123 普悠瑪 太魯閣 自強 # 45莒光復興

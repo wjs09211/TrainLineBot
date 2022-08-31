@@ -36,4 +36,4 @@ def get_query_parm(string):
     return customer_id, train_code, start_code, end_code, start_time, end_time
 
 if __name__ == "__main__":
-    get_query_parm('A121360824, 1, 7, 3, 2020/03/01-08:00, 2020/03/01-15:00')
+    get_query_parm('A148451324, 1, 7, 3, 2020/03/01-08:00, 2020/03/01-15:00')
