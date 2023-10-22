@@ -47,7 +47,7 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
                 traceback.print_exc()
                 # line_bot_api.push_message(user_id, TextSendMessage(text="訂票失敗"))
                 break
-            time.sleep(30)
+            time.sleep(10)
 
     except Exception:
         traceback.print_exc()
