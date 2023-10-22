@@ -10,3 +10,6 @@ gunicorn
 dj-static
 psycopg2
 gevent
+opencv-python
+pytesseract
+Pillow

@@ -8,7 +8,7 @@ import logging
 from api.trainCrawler.entities.trainTicket import TrainTicket
 from api.utils.exceptions import QueryExistSeatException, NoMoneyException
 from TrainLineBot import settings
-
+from api.utils import ocr
 
 logging.basicConfig(level=logging.INFO)
 HOST = 'https://www.railway.gov.tw'
@@ -99,9 +99,10 @@ class TrainCrawler:
         sha.update((SECRET_KEY + current_time).encode("utf-8"))
         code = sha.hexdigest()
         self.header['code'] = code
+        self.header['version'] = '2.1.3-433'
 
     def query_exist_seat(self, customerId='A148451324', trnClassCodes=None, startStaCode='1000',
-                         endStaCode='3360', startDateTime='2022-03-26 12:00:00', endDateTime='2022-03-26 18:00:00'):
+                         endStaCode='3360', startDateTime='2023-10-25 12:00:00', endDateTime='2023-10-25 18:00:00'):
         if trnClassCodes == None:
             trnClassCodes = [11, 1, 2, 3, 4, 5]  # 123 普悠瑪 太魯閣 自強 # 45莒光復興
         post_data = {'packages': 'oneWay', 'queryType': 'trnClass', 'tktNorOrderCnt': '1',
@@ -137,9 +138,26 @@ class TrainCrawler:
             logging.error(str(remain_seat))
             raise QueryExistSeatException
 
+    def captcha_hack_v2(self):
+        # page_url = "https://www.railway.gov.tw/tra-tip-web/ptr/captchaPage?code=797f2700be270c3f500b609a354eab23&time=" + str(
+        #     int(datetime.timestamp(datetime.now()) * 1000)) + "&lang-code=zh-TW"
+        # r = self.session.get(page_url)
+
+        image_url = "https://www.railway.gov.tw/tra-tip-web/ptr/generatImage?code=797f2700be270c3f500b609a354eab23&time=" + str(
+            int(datetime.timestamp(datetime.now()) * 1000))
+        r = self.session.get(image_url)
+        ocr_code = ocr.captcha_OCR(r.content)
+        # validate_url = "https://www.railway.gov.tw/tra-tip-web/ptr/validateCaptcha?code=797f2700be270c3f500b609a354eab23&captchaValue=" + str(ocr_code)
+        # r = self.session.get(validate_url)
+        # print(r.text)
+        # success_url = "https://www.railway.gov.tw/tra-tip-web/ptr/recaptcha/success?" + str(ocr_code)
+        # r = self.session.get(success_url)
+        # print(r.text)
+        return ocr_code
+
     def captcha_hack(self):
         # 模擬進入驗證碼頁面，好像是用timestamp去判斷，是誰正在輸入驗證碼頁面吧
-        page_url = "https://www.railway.gov.tw/tra-tip-web/ptr/captchaPage?code=797f2700be270c3f500b609a354eab2e&time=" + str(
+        page_url = "https://www.railway.gov.tw/tra-tip-web/ptr/captchaPage?code=797f2700be270c3f500b609a354eab23&time=" + str(
             int(datetime.timestamp(datetime.now()) * 1000)) + "&lang-code=zh-TW"
         r = self.session.get(page_url)
         # 傳送 google recaptcha 給 2captcha 解碼
@@ -197,7 +215,7 @@ class TrainCrawler:
 
         self._setting_secret_key()
         header = self.header
-        header['recaptchaToken'] = captcha_code
+        # header['recaptchaToken'] = str(captcha_code)
         r = self.session.post(url, json=[post_data], headers=header)
         ticket_info = json.loads(r.text)
         logging.info(ticket_info)
@@ -228,7 +246,7 @@ class TrainCrawlerTask(threading.Thread):
 if __name__ == '__main__':
     train_crawler = TrainCrawler()
     ticket = train_crawler.query_exist_seat()
-    # print(ticket)
-    # code = train_crawler.captcha_hack()
-    # if code is not None:
-    #     train_crawler.booking_ticket(ticket, code)
+    print(ticket)
+    code = train_crawler.captcha_hack_v2()
+    if code is not None:
+        print(train_crawler.booking_ticket(ticket, code))
