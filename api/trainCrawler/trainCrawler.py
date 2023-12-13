@@ -102,7 +102,7 @@ class TrainCrawler:
         self.header['version'] = '2.1.3-433'
 
     def query_exist_seat(self, customerId='A148451324', trnClassCodes=None, startStaCode='1000',
-                         endStaCode='3360', startDateTime='2023-10-25 12:00:00', endDateTime='2023-10-25 18:00:00'):
+                         endStaCode='3360', startDateTime='2023-12-14 12:00:00', endDateTime='2023-12-14 18:00:00'):
         if trnClassCodes == None:
             trnClassCodes = [11, 1, 2, 3, 4, 5]  # 123 普悠瑪 太魯閣 自強 # 45莒光復興
         post_data = {'packages': 'oneWay', 'queryType': 'trnClass', 'tktNorOrderCnt': '1',
@@ -215,7 +215,7 @@ class TrainCrawler:
 
         self._setting_secret_key()
         header = self.header
-        # header['recaptchaToken'] = str(captcha_code)
+        header['recaptchaToken'] = str(captcha_code)
         r = self.session.post(url, json=[post_data], headers=header)
         ticket_info = json.loads(r.text)
         logging.info(ticket_info)
@@ -247,6 +247,7 @@ if __name__ == '__main__':
     train_crawler = TrainCrawler()
     ticket = train_crawler.query_exist_seat()
     print(ticket)
-    code = train_crawler.captcha_hack_v2()
+    code = train_crawler.captcha_hack()
+    print(code)
     if code is not None:
         print(train_crawler.booking_ticket(ticket, code))

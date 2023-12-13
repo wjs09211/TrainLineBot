@@ -30,7 +30,7 @@ def booking_ticket_task(user_id, id_card, train_code, start_code, end_code, star
                 ticket = train_crawler.query_exist_seat(id_card, TRAIN_CODE_MAP[train_code], start_code, end_code, start_time_str, end_time_str)
                 if ticket is not None:
                     line_bot_api.push_message(user_id, TextSendMessage(text="搜尋到剩餘車位，嘗試為您自動訂票:\n" + str(ticket)))
-                    code = train_crawler.captcha_hack_v2()
+                    code = train_crawler.captcha_hack()
                     if code is not None:
                         ticket = train_crawler.booking_ticket(ticket, code)
                         if ticket is not None and ticket.ticket_number is not None:
