@@ -3,11 +3,12 @@ import logging
 
 class TrainLine:
     # 1: '山線', 2: '海線'
+    OTHER = 0
     MOUNT = 1
     SEA = 2
 
 
-TrainLineName = {TrainLine.MOUNT: "山線", TrainLine.SEA: "海線"}
+TrainLineName = {TrainLine.OTHER: "不區分山線海線", TrainLine.MOUNT: "山線", TrainLine.SEA: "海線"}
 
 
 class TrainClass:

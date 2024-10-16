@@ -8,7 +8,7 @@ import logging
 from api.trainCrawler.entities.trainTicket import TrainTicket
 from api.utils.exceptions import QueryExistSeatException, NoMoneyException
 from TrainLineBot import settings
-from api.utils import ocr
+# from api.utils import ocr
 
 logging.basicConfig(level=logging.INFO)
 HOST = 'https://www.railway.gov.tw'
@@ -101,8 +101,8 @@ class TrainCrawler:
         self.header['code'] = code
         self.header['version'] = '2.1.3-433'
 
-    def query_exist_seat(self, customerId='A148451324', trnClassCodes=None, startStaCode='1000',
-                         endStaCode='3360', startDateTime='2023-12-14 12:00:00', endDateTime='2023-12-14 18:00:00'):
+    def query_exist_seat(self, customerId='A148451324', trnClassCodes=None, startStaCode='7160',
+                         endStaCode='0980', startDateTime='2024-10-17 12:00:00', endDateTime='2024-10-17 18:00:00'):
         if trnClassCodes == None:
             trnClassCodes = [11, 1, 2, 3, 4, 5]  # 123 普悠瑪 太魯閣 自強 # 45莒光復興
         post_data = {'packages': 'oneWay', 'queryType': 'trnClass', 'tktNorOrderCnt': '1',
@@ -246,8 +246,8 @@ class TrainCrawlerTask(threading.Thread):
 if __name__ == '__main__':
     train_crawler = TrainCrawler()
     ticket = train_crawler.query_exist_seat()
-    print(ticket)
-    code = train_crawler.captcha_hack()
-    print(code)
-    if code is not None:
-        print(train_crawler.booking_ticket(ticket, code))
+    print(str(ticket))
+    # code = train_crawler.captcha_hack()
+    # print(code)
+    # if code is not None:
+    #     print(train_crawler.booking_ticket(ticket, code))
